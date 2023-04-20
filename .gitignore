@@ -1,0 +1,6 @@
+tmp/
+out/
+__pycache__/
+*.pyc
+.DS_Store
+data/InterHand

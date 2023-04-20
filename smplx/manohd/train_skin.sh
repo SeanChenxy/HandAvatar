@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 /mnt/user/chenxingyu/.conda/envs/pt111_mnt/bin/python smplx/manohd/skining_opt.py
