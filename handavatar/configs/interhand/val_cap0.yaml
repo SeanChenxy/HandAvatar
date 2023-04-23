@@ -55,7 +55,7 @@ smpl_cfg:
   seal: True
   distal: True
   num_betas: 10
-  model_path: '../../Libs/models'
+  model_path: '.'
   pairof_name: 'handavatar.core.nets.handavatar.pairof.pairof_render'
   pairof_pretrain: 'pairof/out/pretrained_pairof/pairof.ckpt'
   neighbor: 4

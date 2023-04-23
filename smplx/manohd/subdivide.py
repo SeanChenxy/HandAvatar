@@ -105,7 +105,7 @@ def sub_mano(mano, t, pretrain=None):
 
         print('upsample mano to ', verts.shape[0])
         subdivided_mesh = trimesh.Trimesh(verts, faces)
-        _ = subdivided_mesh.export(f'smplx/out/subdivided_template_{i}.obj')
+        # _ = subdivided_mesh.export(f'smplx/out/subdivided_template_{i}.obj')
 
         new_shapedirs = mano.shapedirs[edges]
         new_shapedirs = new_shapedirs.mean(dim=1)  # n_edges x 3 x 10

@@ -10,8 +10,8 @@ phase: 'val'
 train:
   dataset_module: 'handavatar.core.data.interhand.train'
   dataset: 'interhand_train'
-  maxiter: 3000000
-  maxepoch: 50
+  maxiter: 3000000 # used to control maximum iteration step
+  maxepoch: 50 # used to control learning rate decay
   lr_decay_rate: 0.1
   lr: 0.0005
   lr_smpl_body: 0.00005
@@ -55,7 +55,7 @@ smpl_cfg:
   seal: True
   distal: True
   num_betas: 10
-  model_path: '../../Libs/models'
+  model_path: '.'
   pairof_name: 'handavatar.core.nets.handavatar.pairof.pairof_render'
   pairof_pretrain: 'pairof/out/pretrained_pairof/pairof.ckpt'
   neighbor: 4
