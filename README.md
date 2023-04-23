@@ -1,15 +1,12 @@
 # **Hand Avatar: Free-Pose Hand Animation and Rendering from Monocular Video (CVPR 2023)**
 [Project Page](https://seanchenxy.github.io/HandAvatarWeb/?utm_source=catalyzex.com) | [Paper](https://arxiv.org/abs/2211.12782)
 
-## Updata
-+ 2023-4-20 inference code is released
-
 ## Prerequisite
 + Create a new enviornment by
     ```
     conda env create -f env.yml
     ```
-    or
+    or (recommend)
     ```bash
     conda create -n handavatar python=3.9
     conda activate handavatar
