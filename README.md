@@ -1,5 +1,5 @@
 # **Hand Avatar: Free-Pose Hand Animation and Rendering from Monocular Video (CVPR 2023)**
-[Project Page](https://seanchenxy.github.io/HandAvatarWeb/?utm_source=catalyzex.com) | [Paper](https://arxiv.org/abs/2211.12782)
+[Project Page](https://seanchenxy.github.io/HandAvatarWeb/?utm_source=catalyzex.com) | [Paper](https://arxiv.org/abs/2211.12782) | [Video](https://www.youtube.com/watch?v=DQUYYry-NX8)
 
 ## Prerequisite
 + Create a new enviornment by
@@ -12,6 +12,7 @@
     conda activate handavatar
     pip install -r requirements.txt
     ```
++ Install [leap](https://github.com/neuralbodies/leap) from its official  repository
 
 ## Download
 + Download offical [InterHand2.6M](https://mks0601.github.io/InterHand2.6M/).
